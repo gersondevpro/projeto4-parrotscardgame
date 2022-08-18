@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #eef9bf;
+}
+
+h1 {
+    text-align: center;
+    font-size: 56px;
+    font-weight: 700;
+    margin-top: 40px;
+    color: #75B79E;
+}
+
+.cardGame {
+    margin: 0 auto;
+    width: 872px;
+    display: flex;
+    justify-content: center;
+}
+
+.listaCartas {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 34px;
+}
+
+.cartaIndividual {
+    width: 117px;
+    height: 146px;
+    background-color: #A7E9AF;
+    border: 1px solid #99CEA8;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 47px;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
