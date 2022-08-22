@@ -57,7 +57,7 @@ function start() {
         </li>
     `;
     }
-}
+} 
 
 start(iniciarJogo);
 
